@@ -1,0 +1,87 @@
+* {
+    font-family: sans-serif;
+    margin: 0; /*  Margem Externa */
+    padding: 0; /*  Margem Interna */
+    box-sizing: border-box;  
+}
+
+.caixa-azul {
+    display: flex;
+    padding: 50px;
+}
+
+.titulo-iphone {
+    font-size: 30px;
+}
+
+.titulo-secundario {
+    font-size: 40px; /*  Tamanho do texto */
+    margin-top: 10px; /*  Margem parte de cima */
+    margin-bottom: 20px; /*  Margem parte de baixo */
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: #81A5C4;
+}
+
+.amarelo {
+    background-color: #F7DA47;
+}
+
+.branco {
+    background-color: #C1C1C1;
+}
+
+.preto {
+    background-color: #272D33;
+}
+
+.vermelho {
+    background-color: #B50012;
+}
+
+.roxo {
+    background-color: #EDE7F1;
+}
+
+.escolha-cor {
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 450px;
+}
