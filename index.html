@@ -7,14 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone - Apple (Brasil)</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
 </head>
 
 
 
 <body>
 
-    <div>
-        <p>Menu Superior</p>
+    <div class="caixa-roxa">
+        <img class="logo" src="./img/logo.png">
+
+        <ul> 
+            <li>Mac</li>
+            <li>iPhone</li>
+            <li>iPad</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
+
     </div>
 
     <div class="caixa-azul">
@@ -32,16 +44,17 @@
 
             <p class="escolha-cor">Escolha sua cor:</p>
             <div>
-                <button class="azul troca-cor"></button>
-                <button class="amarelo troca-cor"></button>
-                <button class="branco troca-cor"></button>
-                <button class="preto troca-cor"></button>
-                <button class="vermelho troca-cor"></button>
-                <button class="roxo troca-cor"></button>
+                <button onclick="trocaCor('#81A5C4'); trocaImagem('./img/iphone-azul.png')" class="azul troca-cor"></button>
+                <button onclick="trocaCor('#F7DA47'); trocaImagem('./img/iphone-amarelo.png')" class="amarelo troca-cor"></button>
+                <button onclick="trocaCor('#C1C1C1'); trocaImagem('./img/iphone-branco.png')" class="branco troca-cor"></button>
+                <button onclick="trocaCor('#272D33'); trocaImagem('./img/iphone-preto.png')" class="preto troca-cor"></button>
+                <button onclick="trocaCor('#B50012'); trocaImagem('./img/iphone-vemelho.png')" class="vermelho troca-cor"></button>
+                <button onclick="trocaCor('#EDE7F1'); trocaImagem('./img/iphone-roxo.png')" class="roxo troca-cor"></button>
             </div>
         </div>
 
-        <img src="./img/iphone-azul.png">
+        <div class="circulo"></div>
+        <img class="iphone" src="./img/iphone-azul.png">
     </div>
 
 </body>
